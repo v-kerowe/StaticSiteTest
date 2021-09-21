@@ -29,14 +29,6 @@
       "allowedRoles": ["administrator", "customers_contoso"]
     },
     {
-      "route": "/login",
-      "rewrite": "/.auth/login/github"
-    },
-    {
-      "route": "/.auth/login/twitter",
-      "statusCode": 404
-    },
-    {
       "route": "/logout",
       "redirect": "/.auth/logout"
     },
