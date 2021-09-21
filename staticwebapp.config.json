@@ -25,10 +25,6 @@
       "allowedRoles": ["administrator"]
     },
     {
-      "route": "/api/*",
-      "allowedRoles": ["authenticated"]
-    },
-    {
       "route": "/customers/contoso",
       "allowedRoles": ["administrator", "customers_contoso"]
     },
